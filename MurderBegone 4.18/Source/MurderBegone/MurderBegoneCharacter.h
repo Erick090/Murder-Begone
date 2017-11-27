@@ -5,6 +5,13 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "MurderBegoneCharacter.generated.h"
+#include "Engine/DataTable.h"
+
+struct FInventoryItem : public FTableRowBase
+{
+
+};
+
 
 class UInputComponent;
 
