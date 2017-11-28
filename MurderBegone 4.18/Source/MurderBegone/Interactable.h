@@ -20,9 +20,22 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 	
+	/*
+	The function is called when player interacts with the interactable
+	this function is marked as BlueprintImplementable so that designer
+	may implement whatever custom functionality they want in blueprint
+	*/
+	UFUNCTION(BlueprintImplementableEvent)
+	void Interact(APlayerController* Controller);
+
+	UPROPERTY(EditDefaultsOnly)
+	FString Name;
+
+	UPROPERTY(EditDefaultsOnly)
+	FString Action;
+
+	UFUNCTION(BlueprintCallable, Category = "Pickup")
+	FString GetUseText() const { return FString::Printf(TEXT("&s : Press E to &s"), *Name, *Action); }
 	
 };
