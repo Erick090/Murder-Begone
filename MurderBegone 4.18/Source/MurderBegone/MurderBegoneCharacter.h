@@ -4,7 +4,81 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Engine/DataTable.h"
 #include "MurderBegoneCharacter.generated.h"
+
+USTRUCT(BlueprintType)
+struct FCraftingInfo : public FTableRowBase
+{
+
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ComponentID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ProductID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bDestroyItemA;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bDestroyItemB;
+
+};
+
+USTRUCT(BlueprintType)
+struct FInventoryItem : public FTableRowBase
+{
+
+	GENERATED_BODY()
+
+public:
+
+	FInventoryItem()
+	{
+		Name = FText::FromString("Item");
+		Action = FText::FromString("Use");
+		Description = FText::FromString("Please enter description.");
+		Value = 10;
+	}
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FName ItemID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<class APickup> ItemPickup;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Name;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Action;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 Value;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UTexture2D* Thumbnail;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Description;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<FCraftingInfo> CraftCombinations;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bCanBeUsed;
+
+	bool operator==(const FInventoryItem& Item) const
+	{
+		if (ItemID == Item.ItemID)
+			return true;
+		else return false;
+	}
+};
 
 class UInputComponent;
 
@@ -48,6 +122,8 @@ class AMurderBegoneCharacter : public ACharacter
 public:
 	AMurderBegoneCharacter();
 
+	virtual void Tick(float DeltaTime) override;
+
 protected:
 	virtual void BeginPlay();
 
@@ -82,6 +158,8 @@ public:
 
 protected:
 	
+	void CheckForInteractables();
+
 	/** Fires a projectile. */
 	void OnFire();
 

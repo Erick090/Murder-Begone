@@ -14,7 +14,11 @@ class MURDERBEGONE_API AGameplayController : public APlayerController
 {
 	GENERATED_BODY()
 	
-	
+public:
+
+	//the interactable that the player is currently looking at. this will be equal to nullptr if the player is not looking at something interactable
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
+	class AInteractable* CurrentInteractable;
 	
 	
 };
