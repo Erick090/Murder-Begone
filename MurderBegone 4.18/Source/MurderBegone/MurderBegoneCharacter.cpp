@@ -1,6 +1,9 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
 #include "MurderBegoneCharacter.h"
+#include "InventorySystem.h"
+#include "Interactable.h"
+#include "GameplayController.h"
 #include "MurderBegoneProjectile.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
@@ -181,6 +184,40 @@ void AMurderBegoneCharacter::OnFire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+}
+
+void AMurderBegoneCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	CheckForInteractables();
+}
+
+void AMurderBegoneCharacter::CheckForInteractables()
+{
+
+	FHitResult HitResult;
+
+	FVector StartTrace = FirstPersonCameraComponent->GetComponentLocation();
+	FVector EndTrace = (FirstPersonCameraComponent->GetForwardVector() * 1000) + StartTrace;
+
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(this);
+
+	AGameplayController* Controller = Cast<AGameplayController>(GetController());
+
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, QueryParams) && Controller)
+	{
+		//Check if item we hit is interactable item
+		if (AInteractable* Interactable = Cast<AInteractable>(HitResult.GetActor()))
+		{
+			Controller->CurrentInteractable = Interactable;
+			return;
+		}
+	}
+
+	//if we did not hit anything or nothing interactable, set currentinteractable to nullptr
+	Controller->CurrentInteractable = nullptr;
 }
 
 void AMurderBegoneCharacter::OnResetVR()
