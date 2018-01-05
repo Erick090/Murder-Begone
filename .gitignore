@@ -52,3 +52,5 @@ MurderBegone 4.18/Build/
 MurderBegone 4.18/Binaries/
 
 MurderBegone 4.18/Content/Level/VFXRoom_BuiltData.uasset
+Build/WindowsNoEditor/MurderBegone/Content/Paks/MurderBegone-WindowsNoEditor.pak
+Build/WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
