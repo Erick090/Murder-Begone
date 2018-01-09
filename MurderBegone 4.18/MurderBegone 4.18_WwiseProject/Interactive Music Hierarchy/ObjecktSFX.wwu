@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27ADC146-2995-4C53-A056-488BA3E9A158}" SchemaVersion="80" RootDocumentID="{D65A07A8-3709-4C3B-903F-8FCEC43C041A}">
+	<InteractiveMusic>
+		<WorkUnit Name="ObjecktSFX" ID="{27ADC146-2995-4C53-A056-488BA3E9A158}" OwnerID="{FAE5BCBA-FE4B-407D-B31D-EFDDE45E7D7E}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSegment Name="OffenWasser" ID="{461ED67B-9DCE-4840-B6FB-9248B8140328}" ShortID="99350841">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="OffenWasser" ID="{72B6A993-3FD5-4D1C-8618-075BBD1DEF9C}" ShortID="594866520">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OffenWasser" ID="{AB4D6680-62D0-4727-9B52-0DD6962696CC}" ShortID="815436985">
+									<Language>SFX</Language>
+									<AudioFile>OffenWasser.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{4D1B9074-6C1A-4366-BFE6-D0E5058AF603}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{51495D94-F7E6-4551-AC33-30C772303D4A}">
+									<ClipList>
+										<MusicClip Name="OffenWasser" ID="{B64F3305-977E-49EB-9110-AAB16BCA10BE}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1248.07256235828"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="OffenWasser" ID="{AB4D6680-62D0-4727-9B52-0DD6962696CC}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{76B36F90-8EE3-4190-BBED-327822E657C9}"/>
+						<MusicCue Name="Exit Cue" ID="{9C48EB92-5E45-4433-9D64-887BEF433F24}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1248.07256235828"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="retrete" ID="{585E8334-2D42-4745-89AD-FD8A00321E58}" ShortID="280765988">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="10292.2448979592"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="retrete" ID="{6874890C-C0BA-4AB6-875B-F39EDE4FD21F}" ShortID="845335717">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="retrete" ID="{42DF5194-F59C-4603-965B-F331A810DD96}" ShortID="289626706">
+									<Comment>runterzuspülen toillete sound</Comment>
+									<Language>SFX</Language>
+									<AudioFile>retrete.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{4E2ECE01-9FF2-4AA1-8A49-049FDA1B0CEE}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{F3AFD361-6359-41B0-AD61-9F9898BA71A0}">
+									<ClipList>
+										<MusicClip Name="retrete" ID="{0BE0E627-438C-46DE-9375-FD60F9245204}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="10292.2448979592"/>
+											</PropertyList>
+											<AudioSourceRef Name="retrete" ID="{42DF5194-F59C-4603-965B-F331A810DD96}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{06CB30CE-0964-4542-825F-22D4892A1E0C}"/>
+						<MusicCue Name="Exit Cue" ID="{0A4E384E-B5B5-4E52-A467-0A2AE0B00A34}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="10125"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="TV" ID="{508300CC-A13B-4311-974A-41499787291D}" ShortID="745088400">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="TV" ID="{5E80756D-5E0C-4DAA-8F42-4B39830AD6C8}" ShortID="69400687">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TV" ID="{1DAFCB3B-99D1-4DB7-891D-86332958713E}" ShortID="374536889">
+									<Language>SFX</Language>
+									<AudioFile>TV.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D442D969-026B-40BB-9E60-A78F59CBD328}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{6F0005B7-6307-4525-9CC1-1AD0C6589925}">
+									<ClipList>
+										<MusicClip Name="TV" ID="{8937DF4C-BA79-4D2A-A0D0-2C51241074D8}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="3482.99319727891"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="TV" ID="{1DAFCB3B-99D1-4DB7-891D-86332958713E}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{9476F330-4192-4986-86FB-6547DDB4B416}"/>
+						<MusicCue Name="Exit Cue" ID="{332AAD6A-DA73-4D3E-AA0F-0FCCE5FCBDDE}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="3482.99319727891"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Wasser" ID="{FB0590A9-02B4-4339-9CB9-AB5E8CCAA3F0}" ShortID="1058999835">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="16300.4081632653"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Wasser" ID="{A0F9E767-856F-43EA-9764-E42064C843CD}" ShortID="540994421">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wasser" ID="{2D0E882E-344C-4CCF-8C0E-A62FB17031BC}" ShortID="840761879">
+									<Language>SFX</Language>
+									<AudioFile>Wasser.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6718EFCA-6E20-47F5-8766-DC80D86672CE}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{6B2B0982-E0F1-407F-B39A-2F691E3565E5}">
+									<ClipList>
+										<MusicClip Name="Wasser" ID="{9B371ACD-9E6C-419F-BB66-AB04C4B8B9B8}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="16300.4081632653"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Wasser" ID="{2D0E882E-344C-4CCF-8C0E-A62FB17031BC}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{C6F4C3FE-588B-4332-BC63-DE393F26B246}"/>
+						<MusicCue Name="Exit Cue" ID="{28FF723D-A32C-48EC-B4B7-0F17F4BADA62}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="16300.4081632653"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

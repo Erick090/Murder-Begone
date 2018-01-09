@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7C2DDE8-5D93-4F3F-A71C-7EF827329A03}" SchemaVersion="80" RootDocumentID="{D65A07A8-3709-4C3B-903F-8FCEC43C041A}">
+	<InteractiveMusic>
+		<WorkUnit Name="Footsteps" ID="{E7C2DDE8-5D93-4F3F-A71C-7EF827329A03}" OwnerID="{FAE5BCBA-FE4B-407D-B31D-EFDDE45E7D7E}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSegment Name="FS1" ID="{8F9EBE58-5B84-4B19-B2A3-906B58DAE04C}" ShortID="509415588">
+					<Comment>Footsteps 1</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="FS1" ID="{F9236A0D-C802-499B-8222-C7152883539F}" ShortID="631013153">
+							<Comment>Footsteps 1</Comment>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS1" ID="{50017B1A-D843-4C9A-BFA7-73D6FDA16ADC}" ShortID="691897373">
+									<Language>SFX</Language>
+									<AudioFile>FS1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{632EA074-EB9B-4A26-A74D-D1097CA263E3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{9B33D000-DE52-43AD-9816-49FDB84FC4F0}">
+									<ClipList>
+										<MusicClip Name="FS1" ID="{09EC6A1D-0658-40C3-8F29-22B2436A3E81}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="600.816326530612"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="FS1" ID="{50017B1A-D843-4C9A-BFA7-73D6FDA16ADC}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{864BCB40-5B49-4471-8452-09F2D2CFD687}"/>
+						<MusicCue Name="Exit Cue" ID="{E17CAABC-3350-4EB6-A444-73CD8CC5DC22}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="FS2" ID="{8D98CDD7-5E6C-4E35-964E-3B13A99DC7C7}" ShortID="220697286">
+					<Comment>Footsteps 2</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="FS2" ID="{7BD1EC20-7F83-4C83-BC41-CC79D8B40B5E}" ShortID="811402725">
+							<Comment>Footsteps 2</Comment>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS2" ID="{0466F481-AD7F-46F9-B7D3-8A0DAD2879E0}" ShortID="132768136">
+									<Language>SFX</Language>
+									<AudioFile>FS2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{951392A5-C295-4B60-AF05-1109F2CC35E2}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{93DECD34-E242-4867-A2EF-517893640BDE}">
+									<ClipList>
+										<MusicClip Name="FS2" ID="{21E67537-CB74-4D75-95E1-F51DDBFE9136}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="705.30612244898"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="FS2" ID="{0466F481-AD7F-46F9-B7D3-8A0DAD2879E0}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{3B407318-1B21-439B-8A19-CB0A0A6CB7BA}"/>
+						<MusicCue Name="Exit Cue" ID="{22C3B547-44FC-4A6C-AA42-603EEFA4095F}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="FS3" ID="{2F7B10B2-DBD4-453B-BFFE-2819FF4E761B}" ShortID="684508867">
+					<Comment>Footsteps 3</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="FS3" ID="{E6BB21E6-93C7-4112-B9B4-3098315DA62F}" ShortID="973687502">
+							<Comment>Footsteps 3</Comment>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS3" ID="{C0613922-4583-45D0-AC75-39E9541463D3}" ShortID="560914699">
+									<Language>SFX</Language>
+									<AudioFile>FS3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8A95648B-6CCF-49F5-ABE7-52CD84BBB220}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{3AD6B75A-E834-4023-9EE8-C0F2B20CE2FE}">
+									<ClipList>
+										<MusicClip Name="FS3" ID="{9852AB36-A680-405A-BB05-D80763E9C8AA}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="600.816326530612"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="FS3" ID="{C0613922-4583-45D0-AC75-39E9541463D3}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{2066BFC7-4286-4394-A2F0-D8D7794977C5}"/>
+						<MusicCue Name="Exit Cue" ID="{D9FE23C0-D4C2-4B37-A02E-3C1D93234B29}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="FS4" ID="{0DC4C031-7ADA-4BC9-BC10-EBB771ADAF75}" ShortID="848918579">
+					<Comment>Footsteps 4</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{22277DE9-9252-42E6-98E3-C8CE8E6D0C23}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="FS4" ID="{92E497EF-5436-47E4-A236-76D39E547664}" ShortID="13977488">
+							<Comment>Footsteps 4</Comment>
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D682BE0C-C8B6-424F-8680-F1736C0ABB8A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS4" ID="{4FE83F88-CE5F-468C-B219-0E815BC622E8}" ShortID="1005270386">
+									<Language>SFX</Language>
+									<AudioFile>FS4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CE770FAC-9CF5-4E62-B6A9-457C0C89C1C9}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{3A35384C-39A8-4466-A4F8-87E5DE14D11C}">
+									<ClipList>
+										<MusicClip Name="FS4" ID="{5E59CD21-EC90-4544-9FA8-5F86D667E79E}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="600.816326530612"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="FS4" ID="{4FE83F88-CE5F-468C-B219-0E815BC622E8}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{B1893C21-A74F-4C4E-A0A0-A0FF8383B573}"/>
+						<MusicCue Name="Exit Cue" ID="{8335AF28-4F9D-4C0A-9ADB-76D15FCAAEB7}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

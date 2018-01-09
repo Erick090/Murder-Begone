@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FAE5BCBA-FE4B-407D-B31D-EFDDE45E7D7E}" SchemaVersion="80" RootDocumentID="{D65A07A8-3709-4C3B-903F-8FCEC43C041A}">
+	<InteractiveMusic>
+		<WorkUnit Name="Sounds" ID="{FAE5BCBA-FE4B-407D-B31D-EFDDE45E7D7E}" OwnerID="{D65A07A8-3709-4C3B-903F-8FCEC43C041A}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Footsteps" ID="{E7C2DDE8-5D93-4F3F-A71C-7EF827329A03}" PersistMode="Reference"/>
+				<WorkUnit Name="BackgroundMusic" ID="{A6D3042F-B611-4F28-8D60-5A5C57C6A4F1}" PersistMode="Reference"/>
+				<WorkUnit Name="ObjecktSFX" ID="{27ADC146-2995-4C53-A056-488BA3E9A158}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

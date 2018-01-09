@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="80">
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3689545157" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3690462567" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3689705168" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3690572537" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3690632736" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="15892814" DateHigh="30632180"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3689879904" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3689655134" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Effects\Factory Effects.wwu" DateLow="15917831" DateHigh="30632180"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Events\Default Work Unit.wwu" DateLow="3690512486" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3689942246" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3690242306" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3689457779" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3689992274" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3690352536" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\MurderBegone 4.18_WwiseProject.wproj" DateLow="3689377778" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3690192361" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3690132229" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Queries\Factory Queries.wwu" DateLow="15902824" DateHigh="30632180"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3689605099" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3689824818" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\States\Default Work Unit.wwu" DateLow="3690072194" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3689770380" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3690302347" DateHigh="30632199"/>
-	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3690402567" DateHigh="30632199"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4118046810" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="4118086831" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="4118136872" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="4118186900" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="4118206918" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4118246942" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="4118286976" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Effects\Default Work Unit.wwu" DateLow="4118337104" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Effects\Factory Effects.wwu" DateLow="4118397046" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Events\Default Work Unit.wwu" DateLow="4118437083" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="4118487118" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="4118527139" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4118577183" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="4118617205" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="4118667236" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\MurderBegone 4.18_WwiseProject.Anais.Casanova.wsettings" DateLow="834922135" DateHigh="30632422"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\MurderBegone 4.18_WwiseProject.wproj" DateLow="4118777396" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Presets\Default Work Unit.wwu" DateLow="4118827350" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Queries\Default Work Unit.wwu" DateLow="4118877385" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Queries\Factory Queries.wwu" DateLow="4118917409" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="4118967453" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4119017478" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\States\Default Work Unit.wwu" DateLow="4119057506" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Switches\Default Work Unit.wwu" DateLow="4119107544" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="4119147575" DateHigh="30640269"/>
+	<ValidationCacheItem File="C:\Murder Begone\MurderBegone 4.18\MurderBegone 4.18_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="4119197606" DateHigh="30640269"/>
 </ValidationCache>
